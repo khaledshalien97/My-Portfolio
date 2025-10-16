@@ -13,7 +13,6 @@ import 'package:my_portfolio/widgets/project_section.dart';
 import 'package:my_portfolio/widgets/skills_desktop.dart';
 import 'package:my_portfolio/widgets/skills_mobile.dart';
 
-
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
 
@@ -29,106 +28,101 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     final screenSize = MediaQuery.of(context).size;
     final screenWidth = screenSize.width;
-    final screenHeight = screenSize.height;
-    return LayoutBuilder(builder: (context, constraints) {
-      return Scaffold(
-        key: scaffoldKey,
-        backgroundColor: CustomColor.scaffoldBg,
-        endDrawer: constraints.maxWidth >= kMinDesktopWidth
-            ? null
-            : DraweMobile(
-                onNavItemTap: (int navIndex) {
-                   scaffoldKey.currentState?.closeEndDrawer();
-                  scrollToSection(navIndex);
-                },
-              ),
-        body: SingleChildScrollView(
-          controller: scrollController,
-          scrollDirection: Axis.vertical,
-          child: Column(
-            children: [
-           
-           
-              SizedBox(
-                key: navBarKey.first,
-              ),
-              //  MAIN
-              if (constraints.maxWidth >= kMinDesktopWidth)
-                HeaderDesktop(
-                  onMenuTap: (int navIndex) {
-                      scrollToSection(navIndex);
-                  },
-                )
-              else
-                HeaderMobile(
-                  onLogoTap: () {},
-                  onMenuTap: () {
-                    scaffoldKey.currentState?.openEndDrawer();
-                  },
-                ),
 
-              if (constraints.maxWidth >= kMinDesktopWidth)
-                 MainDesktop(
-                  onPressedContact:(int navIndex) {
-                      scrollToSection(3);
-                  },)
-              else
-                 MainMobile(
-                    onPressedContact:(int navIndex) {
-                      scrollToSection(3);
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        return Scaffold(
+          key: scaffoldKey,
+          backgroundColor: CustomColor.scaffoldBg,
+          endDrawer: constraints.maxWidth >= kMinDesktopWidth
+              ? null
+              : DraweMobile(
+                  onNavItemTap: (int navIndex) {
+                    scaffoldKey.currentState?.closeEndDrawer();
+                    scrollToSection(navIndex);
                   },
                 ),
-                
-              //  Skills
-              Container(
-                key: navBarKey[1],
-                padding: const EdgeInsets.fromLTRB(25, 20, 25, 60),
-                width: screenWidth,
-                color: CustomColor.bLightl,
-                child: Column(
-                  mainAxisSize: MainAxisSize.min,
-                  children: [
-                    const Text(
-                      "What I Can Do",
-                      style: TextStyle(
+          body: SingleChildScrollView(
+            controller: scrollController,
+            scrollDirection: Axis.vertical,
+            child: Column(
+              children: [
+                SizedBox(key: navBarKey.first),
+                //  MAIN
+                if (constraints.maxWidth >= kMinDesktopWidth)
+                  HeaderDesktop(
+                    onMenuTap: (int navIndex) {
+                      scrollToSection(navIndex);
+                    },
+                  )
+                else
+                  HeaderMobile(
+                    onLogoTap: () {},
+                    onMenuTap: () {
+                      scaffoldKey.currentState?.openEndDrawer();
+                    },
+                  ),
+
+                if (constraints.maxWidth >= kMinDesktopWidth)
+                  MainDesktop(
+                    onPressedContact: (int navIndex) {
+                      scrollToSection(3);
+                    },
+                  )
+                else
+                  MainMobile(
+                    onPressedContact: (int navIndex) {
+                      scrollToSection(3);
+                    },
+                  ),
+
+                //  Skills
+                Container(
+                  key: navBarKey[1],
+                  padding: const EdgeInsets.fromLTRB(25, 20, 25, 60),
+                  width: screenWidth,
+                  color: CustomColor.bLightl,
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const Text(
+                        "What I Can Do",
+                        style: TextStyle(
                           fontSize: 24,
                           fontWeight: FontWeight.bold,
-                          color: CustomColor.whitePrimary),
-                    ),
-                    const SizedBox(
-                      height: 50,
-                    ),
-                    if (constraints.maxWidth >= kMedDesktopWidth)
-                      const SkillsDesktop()
-                    else
-                      const SkillsMobile(),
-                  ],
+                          color: CustomColor.whitePrimary,
+                        ),
+                      ),
+                      const SizedBox(height: 50),
+                      if (constraints.maxWidth >= kMedDesktopWidth)
+                        const SkillsDesktop()
+                      else
+                        const SkillsMobile(),
+                    ],
+                  ),
                 ),
-              ),
 
-              //PROJECTS
-              ProjectSection(
-                key: navBarKey[2],
-              ),
-              //CONTACT
-              ContactSection(
-                key: navBarKey[3],
-              ),
-              const SizedBox(
-                height: 30,
-              ),
-              //FOOTER
-              const Fotter()
-            ],
+                //PROJECTS
+                ProjectSection(key: navBarKey[2]),
+                //CONTACT
+                ContactSection(key: navBarKey[3]),
+                const SizedBox(height: 30),
+                //FOOTER
+                const Fotter(),
+              ],
+            ),
           ),
-        ),
-      );
-    });
+        );
+      },
+    );
   }
 
   void scrollToSection(int navIndex) {
     final key = navBarKey[navIndex];
-    Scrollable.ensureVisible(key.currentContext!,
-        duration: const Duration(milliseconds: 500), curve: Curves.easeInOut);
+    Scrollable.ensureVisible(
+      key.currentContext!,
+      duration: const Duration(milliseconds: 500),
+      curve: Curves.easeInOut,
+    );
   }
 }
