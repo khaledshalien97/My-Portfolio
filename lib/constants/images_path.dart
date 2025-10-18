@@ -1,31 +1,8 @@
 const String placeholderImage = "asset/images/placeholder.png";
 // Cover Projects
 const String myPhoto = "asset/images/my_photo.jpeg";
-// const String taqtakCover =
-//     "asset/images/projects_img/taqtak_app/taqtak_project_cover.png";
-// const String donefyCover =
-//     "asset/images/projects_img/donefy_app/donefy_project.png";
-
-// const String omsSolutionsCover =
-//     "asset/images/projects_img/oms_app/oms_project.png";
-
-// const String addNotesCover =
-//     "asset/images/projects_img/notes_app/notes_app_cover.png";
-// const String deliveryFoodCover =
-//     "asset/images/projects_img/delivery_app/delivery_food_project.png";
-// const String lifeStyleCover =
-//     "asset/images/projects_img/lifestyle_app/lifestyle_app_cover.png";
-// const String weatherCover =
-//     "asset/images/projects_img/weather_app/weather_app_cover.jpg";
-// const String bmiCover = "asset/images/projects_img/bmi_app/bmi_app_cover.png";
-// const String mealCover =
-//     "asset/images/projects_img/meal_app/meal_app_cover.jpg";
-// const String travelCover =
-//     "asset/images/projects_img/travel_app/travel_app_cover.jpeg";
 const String diceGameCover =
     "asset/images/projects_img/dicegame_app/dice_app_cover.jpeg";
-// const String onlineShopCover =
-//     "asset/images/projects_img/online_app/online_cover.jpeg";
 
 // Donefy App Photo
 const String donefyCover =
@@ -74,6 +51,23 @@ const String plant10 = "asset/images/projects_img/plant_app/screen_10.png";
 const String plant11 = "asset/images/projects_img/plant_app/screen_11.png";
 const String plant12 = "asset/images/projects_img/plant_app/screen_12.png";
 const String plant13 = "asset/images/projects_img/plant_app/screen_13.png";
+
+// Product List App Photo
+const String coverProduct =
+    "asset/images/projects_img/product_list_app/product_list_cover.png";
+const String product1 = "asset/images/projects_img/product_list_app/product_1.png";
+const String product2 = "asset/images/projects_img/product_list_app/product_2.png";
+const String product3 = "asset/images/projects_img/product_list_app/product_3.png";
+const String product4 = "asset/images/projects_img/product_list_app/product_4.png";
+const String product5 = "asset/images/projects_img/product_list_app/product_5.png";
+const String product6 = "asset/images/projects_img/product_list_app/product_6.png";
+const String product7 = "asset/images/projects_img/product_list_app/product_7.png";
+const String product8 = "asset/images/projects_img/product_list_app/product_8.png";
+const String product9 = "asset/images/projects_img/product_list_app/product_9.png";
+const String product10 = "asset/images/projects_img/product_list_app/product_10.png";
+const String product11 = "asset/images/projects_img/product_list_app/product_11.png";
+const String product12 = "asset/images/projects_img/product_list_app/product_12.png";
+const String product13 = "asset/images/projects_img/product_list_app/product_13.png";
 
 // Delivery App Photo
 const String deliveryFoodCover =
@@ -165,6 +159,14 @@ const String shoes3 = "asset/images/projects_img/shoes_app/shoes_3.png";
 const String shoes4 = "asset/images/projects_img/shoes_app/shoes_4.png";
 const String shoes5 = "asset/images/projects_img/shoes_app/shoes_5.png";
 const String shoes6 = "asset/images/projects_img/shoes_app/shoes_6.png";
+
+// Modern Smart Home App Photo
+const String modernSmartCover =
+    "asset/images/projects_img/modern_app/modern_smart_cover.png";
+const String modern1 = "asset/images/projects_img/modern_app/modern_1.jpg";
+const String modern2 = "asset/images/projects_img/modern_app/modern_2.jpg";
+const String modern3 = "asset/images/projects_img/modern_app/modern_3.jpg";
+const String modern4 = "asset/images/projects_img/modern_app/modern_4.jpg";
 
 // Travel App Photo
 const String travelCover =

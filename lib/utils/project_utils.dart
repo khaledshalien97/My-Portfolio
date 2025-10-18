@@ -33,14 +33,7 @@ List<ProjectUtils> workProjectsUitls = [
     appStoreLink: "https://apps.apple.com/jo/app/taqtak/id1567871162",
     androidStoreLink:
         "https://play.google.com/store/apps/details?id=com.algebra.taqtak",
-    images: [
-      taqtak1,
-      taqtak2,
-      taqtak3,
-      taqtak4,
-      taqtak5,
-      taqtak6,
-    ],
+    images: [taqtak1, taqtak2, taqtak3, taqtak4, taqtak5, taqtak6],
   ),
   ProjectUtils(
     coverImg: donefyCover,
@@ -52,18 +45,11 @@ List<ProjectUtils> workProjectsUitls = [
     appStoreLink:
         "https://apps.apple.com/jo/app/donefy/id1631105051?platform=iphone",
     androidStoreLink: "https://play.google.com/store/search?q=donefy&c=apps",
-    images: [
-      donefy1,
-      donefy2,
-      donefy3,
-      donefy4,
-      donefy5,
-      donefy6,
-    ],
+    images: [donefy1, donefy2, donefy3, donefy4, donefy5, donefy6],
   ),
   ProjectUtils(
     coverImg: omsSolutionsCover,
-    title: "OMS Solutions",
+    title: "OMS Solutions Application",
     subTitle: "Operations & maintenance app",
     description:
         "A computerized maintenance management system that maximize operational intelligence, empower critical decisions, allow your operators where ever they are located to control and stream data and information about your O&M daily activities and improve your staff awareness.",
@@ -92,12 +78,7 @@ List<ProjectUtils> hoppyProjectsUitls = [
     githubLink: "https://github.com/khaledshalien97/notes_app_flutter",
     appStoreLink: "",
     androidStoreLink: "",
-    images: [
-      notes1,
-      notes2,
-      notes3,
-      notes4,
-    ],
+    images: [notes1, notes2, notes3, notes4],
   ),
   ProjectUtils(
     coverImg: todoAppCover,
@@ -120,13 +101,7 @@ List<ProjectUtils> hoppyProjectsUitls = [
     githubLink: "https://github.com/khaledshalien97/Meal_Application",
     appStoreLink: "",
     androidStoreLink: "",
-    images: [
-      meal1,
-      meal2,
-      meal3,
-      meal4,
-      meal5,
-    ],
+    images: [meal1, meal2, meal3, meal4, meal5],
   ),
   ProjectUtils(
     coverImg: bmiCover,
@@ -137,11 +112,7 @@ List<ProjectUtils> hoppyProjectsUitls = [
     githubLink: "https://github.com/khaledshalien97/BMI-Calculator",
     appStoreLink: "",
     androidStoreLink: "",
-    images: [
-      bmi1,
-      bmi2,
-      bmi3,
-    ],
+    images: [bmi1, bmi2, bmi3],
   ),
   ProjectUtils(
     coverImg: weatherCover,
@@ -160,7 +131,7 @@ List<ProjectUtils> hoppyProjectsUitls = [
       weather5,
       weather6,
       weather7,
-      weather8
+      weather8,
     ],
   ),
   ProjectUtils(
@@ -173,6 +144,31 @@ List<ProjectUtils> hoppyProjectsUitls = [
     appStoreLink: "",
     androidStoreLink: "",
     images: [],
+  ),
+  ProjectUtils(
+    coverImg: coverProduct,
+    title: "Product List Application",
+    subTitle: "Product List App with Cart and User Authentication Firebase",
+    description:
+        "Developed a fully functional e-commerce application using Flutter, BLoC/Cubit, and Firebase Authentication. The app fetches real product data from the DummyJSON API, allowing users to browse, filter, and sort products by category or price. Implemented complete cart functionality, including adding, removing, and updating product quantities with real-time total price calculation and input validation. Guest users can explore products and add items to their cart, while checkout requires authentication through Firebase. Designed a clean and responsive UI/UX with smooth navigation, proper loading/error states, and toast notifications for user actions. This project highlights strong skills in state management, API integration, and scalable Flutter architecture",
+    githubLink: "https://github.com/khaledshalien97/Product_List_App",
+    appStoreLink: "",
+    androidStoreLink: "",
+    images: [
+      product1,
+      product2,
+      product3,
+      product4,
+      product5,
+      product6,
+      product7,
+      product8,
+      product9,
+      product10,
+      product11,
+      product12,
+      product13,
+    ],
   ),
   // ProjectUtils(
   //   coverImg: diceGameCover,
@@ -197,12 +193,7 @@ List<ProjectUtils> uiProjectsUitls = [
     githubLink: "https://github.com/khaledshalien97/Trip-Application",
     appStoreLink: "",
     androidStoreLink: "",
-    images: [
-      trip1,
-      trip2,
-      trip3,
-      trip4,
-    ],
+    images: [trip1, trip2, trip3, trip4],
   ),
   ProjectUtils(
     coverImg: travelCover,
@@ -213,11 +204,7 @@ List<ProjectUtils> uiProjectsUitls = [
     githubLink: "https://github.com/khaledshalien97/Travel-application",
     appStoreLink: "",
     androidStoreLink: "",
-    images: [
-      travel3,
-      travel1,
-      travel2,
-    ],
+    images: [travel3, travel1, travel2],
   ),
   ProjectUtils(
     coverImg: deliveryFoodCover,
@@ -251,7 +238,7 @@ List<ProjectUtils> uiProjectsUitls = [
   ),
   ProjectUtils(
     coverImg: verticalappCover,
-    title: "Wristwatch Showcase App",
+    title: "Wristwatch Showcase Application",
     subTitle: "Immersive Wristwatch Gallery with Vertical Card Pager",
     description:
         "This Flutter application provides a sleek and visually appealing gallery of wristwatches, featuring a vertical card pager for an engaging user experience. Each card highlights a high-resolution image of a wristwatch, with smooth scrolling transitions to captivate the viewer. The app combines modern design principles with an intuitive interface, showcasing my skills in Flutter development and creative UI design",
@@ -262,7 +249,7 @@ List<ProjectUtils> uiProjectsUitls = [
   ),
   ProjectUtils(
     coverImg: coverplant,
-    title: "Plant Shopping App",
+    title: "Plant Shopping Application",
     subTitle: "Discover & Shop Beautiful Plants with Ease",
     description:
         "This Flutter application offers a seamless and visually appealing shopping experience for plant enthusiasts. It features a modern UI with a well-structured layout, allowing users to browse, search, and favorite plants effortlessly. The app incorporates a clean and intuitive design with smooth transitions, interactive elements, and category-based filtering.the app ensures high performance, scalability, and maintainability. This project highlights my expertise in Flutter development, UI/UX design, API integration, and state management, demonstrating my ability to create engaging and efficient mobile applications.",
@@ -287,24 +274,18 @@ List<ProjectUtils> uiProjectsUitls = [
   ),
   ProjectUtils(
     coverImg: onlineShopCover,
-    title: "Online Shop App",
+    title: "Online Shop Application",
     subTitle: "Shop Stylish Bags with Ease",
     description:
         "This Women’s Fashion App offers a clean, user-friendly interface to browse and shop bags effortlessly.Explore categories, view prices, pick colors and sizes, and buy in just a few taps — all in a smooth, modern design.",
     githubLink: "https://github.com/khaledshalien97/Online-Shop-UI-App",
     appStoreLink: "",
     androidStoreLink: "",
-    images: [
-      online1,
-      online2,
-      online3,
-      online4,
-      online5,
-    ],
+    images: [online1, online2, online3, online4, online5],
   ),
   ProjectUtils(
     coverImg: stocksCover,
-    title: "Stocks App",
+    title: "Stocks Application",
     subTitle: "Real-Time Market Insights at Your Fingertips",
     description:
         "This Stocks App offers a clean, user-friendly interface to track market trends and monitor live stock prices. Explore stock details, view interactive charts, filter by sectors, and stay updated — all in a smooth, modern design",
@@ -315,20 +296,25 @@ List<ProjectUtils> uiProjectsUitls = [
   ),
   ProjectUtils(
     coverImg: shoesCover,
-    title: "Shoes App",
+    title: "Shoes Application",
     subTitle: "Flutter UI for shoe lovers – clean, fast, and modern",
     description:
         "This Shoe Store App delivers a clean, modern shopping experience designed with Flutter. Browse trending shoes, filter by category, and view detailed product pages with smooth hero animations. Built to showcase elegant UI structure, responsive layouts, and seamless navigation — perfect for e-commerce concepts and design inspiration.",
     githubLink: "https://github.com/khaledshalien97/Shoes-Shop-UI-App",
     appStoreLink: "",
     androidStoreLink: "",
-    images: [
-      shoes1,
-      shoes2,
-      shoes3,
-      shoes4,
-      shoes5,
-      shoes6,
-    ],
+    images: [shoes1, shoes2, shoes3, shoes4, shoes5, shoes6],
+  ),
+
+  ProjectUtils(
+    coverImg: modernSmartCover,
+    title: "Modern Smart Home Application",
+    subTitle: "Flutter UI for Modern Smart Home – clean, fast, and modern",
+    description:
+        "The Modern Smart Home UI App is a clean and intuitive mobile interface concept designed to control connected home devices from one dashboard. Built with Flutter, the app delivers a smooth cross-platform experience for managing smart devices such as lights, AC, TV, and fans with real-time status updates and elegant toggle controls",
+    githubLink: "https://github.com/khaledshalien97/Modern-Smart-Home-UI-App",
+    appStoreLink: "",
+    androidStoreLink: "",
+    images: [modern1, modern2, modern3, modern4],
   ),
 ];

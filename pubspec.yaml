@@ -79,6 +79,8 @@ flutter:
     - asset/images/projects_img/dicegame_app/
     - asset/images/projects_img/stocks_app/
     - asset/images/projects_img/shoes_app/
+    - asset/images/projects_img/modern_app/
+    - asset/images/projects_img/product_list_app/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

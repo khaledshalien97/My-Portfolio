@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:my_portfolio/constants/colors.dart';
 import 'package:my_portfolio/constants/size_screens.dart';
 import 'package:my_portfolio/widgets/contact_section.dart';
