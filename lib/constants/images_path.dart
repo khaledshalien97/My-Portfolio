@@ -7,33 +7,53 @@ const String diceGameCover =
 // Donefy App Photo
 const String donefyCover =
     "asset/images/projects_img/donefy_app/donefy_cover_test.png";
-const String donefy1 = "asset/images/projects_img/donefy_app/donefy_1.webp";
-const String donefy2 = "asset/images/projects_img/donefy_app/donefy_2.webp";
-const String donefy3 = "asset/images/projects_img/donefy_app/donefy_3.webp";
-const String donefy4 = "asset/images/projects_img/donefy_app/donefy_4.webp";
-const String donefy5 = "asset/images/projects_img/donefy_app/donefy_5.webp";
-const String donefy6 = "asset/images/projects_img/donefy_app/donefy_6.webp";
+const String donefy1 = "asset/images/projects_img/donefy_app/donefy_1.png";
+const String donefy2 = "asset/images/projects_img/donefy_app/donefy_2.png";
+const String donefy3 = "asset/images/projects_img/donefy_app/donefy_3.png";
+const String donefy4 = "asset/images/projects_img/donefy_app/donefy_4.png";
+const String donefy5 = "asset/images/projects_img/donefy_app/donefy_5.png";
+const String donefy6 = "asset/images/projects_img/donefy_app/donefy_6.png";
+const String donefy7 = "asset/images/projects_img/donefy_app/donefy_7.png";
+const String donefy8 = "asset/images/projects_img/donefy_app/donefy_8.png";
+const String donefy9 = "asset/images/projects_img/donefy_app/donefy_9.png";
+const String donefy10 = "asset/images/projects_img/donefy_app/donefy_10.png";
+const String donefy11 = "asset/images/projects_img/donefy_app/donefy_11.png";
 
 // Taqtak App Photo
 const String taqtakCover =
     "asset/images/projects_img/taqtak_app/taqtak_cover_test.png";
-const String taqtak1 = "asset/images/projects_img/taqtak_app/taqtak_1.webp";
-const String taqtak2 = "asset/images/projects_img/taqtak_app/taqtak_2.webp";
-const String taqtak3 = "asset/images/projects_img/taqtak_app/taqtak_3.webp";
-const String taqtak4 = "asset/images/projects_img/taqtak_app/taqtak_4.webp";
-const String taqtak5 = "asset/images/projects_img/taqtak_app/taqtak_5.webp";
-const String taqtak6 = "asset/images/projects_img/taqtak_app/taqtak_6.webp";
-const String taqtak7 = "asset/images/projects_img/taqtak_app/taqtak_7.webp";
+const String taqtak1 = "asset/images/projects_img/taqtak_app/taqtak_1.png";
+const String taqtak2 = "asset/images/projects_img/taqtak_app/taqtak_2.png";
+const String taqtak3 = "asset/images/projects_img/taqtak_app/taqtak_3.png";
+const String taqtak4 = "asset/images/projects_img/taqtak_app/taqtak_4.png";
+const String taqtak5 = "asset/images/projects_img/taqtak_app/taqtak_5.png";
+const String taqtak6 = "asset/images/projects_img/taqtak_app/taqtak_6.png";
+const String taqtak7 = "asset/images/projects_img/taqtak_app/taqtak_7.png";
+const String taqtak8 = "asset/images/projects_img/taqtak_app/taqtak_8.png";
+const String taqtak9 = "asset/images/projects_img/taqtak_app/taqtak_9.png";
+const String taqtak10 = "asset/images/projects_img/taqtak_app/taqtak_10.png";
+const String taqtak11 = "asset/images/projects_img/taqtak_app/taqtak_11.png";
+const String taqtak12 = "asset/images/projects_img/taqtak_app/taqtak_12.png";
+const String taqtak13 = "asset/images/projects_img/taqtak_app/taqtak_13.png";
 
 // OMS App Photo
 const String omsSolutionsCover =
     "asset/images/projects_img/oms_app/oms_cover_test.png";
-const String omsSolution1 = "asset/images/projects_img/oms_app/oms_1.jpeg";
-const String omsSolution2 = "asset/images/projects_img/oms_app/oms_2.jpeg";
-const String omsSolution3 = "asset/images/projects_img/oms_app/oms_3.jpeg";
-const String omsSolution4 = "asset/images/projects_img/oms_app/oms_4.jpeg";
-const String omsSolution5 = "asset/images/projects_img/oms_app/oms_5.jpeg";
-const String omsSolution6 = "asset/images/projects_img/oms_app/oms_6.jpeg";
+const String omsSolution1 = "asset/images/projects_img/oms_app/oms_1.png";
+const String omsSolution2 = "asset/images/projects_img/oms_app/oms_2.png";
+const String omsSolution3 = "asset/images/projects_img/oms_app/oms_3.png";
+const String omsSolution4 = "asset/images/projects_img/oms_app/oms_4.png";
+const String omsSolution5 = "asset/images/projects_img/oms_app/oms_5.png";
+const String omsSolution6 = "asset/images/projects_img/oms_app/oms_6.png";
+const String omsSolution7 = "asset/images/projects_img/oms_app/oms_7.png";
+const String omsSolution8 = "asset/images/projects_img/oms_app/oms_8.png";
+const String omsSolution9 = "asset/images/projects_img/oms_app/oms_9.png";
+const String omsSolution10 = "asset/images/projects_img/oms_app/oms_10.png";
+const String omsSolution11 = "asset/images/projects_img/oms_app/oms_11.png";
+const String omsSolution12 = "asset/images/projects_img/oms_app/oms_12.png";
+const String omsSolution13 = "asset/images/projects_img/oms_app/oms_13.png";
+const String omsSolution14 = "asset/images/projects_img/oms_app/oms_14.png";
+
 
 // Plant App Photo
 const String coverplant =
