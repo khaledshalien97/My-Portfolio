@@ -86,26 +86,26 @@ class _ContactSectionState extends State<ContactSection> {
               InkWell(
                   onTap: openGitHub,
                   child: Image.asset(
-                    "asset/images/github_logo.png",
+                    "asset/images/logo_images/github_logo.png",
                     width: 30,
                   )),
              
               InkWell(
                   onTap: openLinkedIn,
                   child: Image.asset(
-                    "asset/images/linkedin_logo.webp",
+                    "asset/images/logo_images/linkedin_logo.webp",
                     width: 28,
                   )),
               InkWell(
                   onTap: sendEmail,
                   child: Image.asset(
-                    "asset/images/email_logo.png",
+                    "asset/images/logo_images/email_logo.png",
                     width: 30,
                   )),
                    InkWell(
                   onTap: openWhatsApp,
                   child: Image.asset(
-                    "asset/images/whatsapp_logo.jpg",
+                    "asset/images/logo_images/whatsapp_logo.jpg",
                     width: 30,
                   )),
              

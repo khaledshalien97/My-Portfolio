@@ -256,7 +256,7 @@ List<ProjectUtils> uiProjectsUitls = [
       delivery4,
       delivery5,
       delivery6,
-      delivery7,
+
     ],
   ),
   ProjectUtils(
@@ -315,7 +315,7 @@ List<ProjectUtils> uiProjectsUitls = [
     githubLink: "https://github.com/khaledshalien97/Online-Shop-UI-App",
     appStoreLink: "",
     androidStoreLink: "",
-    images: [online1, online2, online3, online4, online5],
+    images: [online1, online2, online3, online4, online5,online6,online7],
   ),
   ProjectUtils(
     coverImg: stocksCover,
@@ -326,7 +326,7 @@ List<ProjectUtils> uiProjectsUitls = [
     githubLink: "https://github.com/khaledshalien97/Stocks-UI-App",
     appStoreLink: "",
     androidStoreLink: "",
-    images: [stocks1, stocks2, stocks3, stocks4, stocks5, stocks6],
+    images: [ stocks2, stocks4, stocks6],
   ),
   ProjectUtils(
     coverImg: shoesCover,
@@ -337,7 +337,7 @@ List<ProjectUtils> uiProjectsUitls = [
     githubLink: "https://github.com/khaledshalien97/Shoes-Shop-UI-App",
     appStoreLink: "",
     androidStoreLink: "",
-    images: [shoes1, shoes2, shoes3, shoes4, shoes5, shoes6],
+    images: [shoes1, shoes3, shoes4, shoes5, shoes6],
   ),
 
   ProjectUtils(
@@ -351,4 +351,30 @@ List<ProjectUtils> uiProjectsUitls = [
     androidStoreLink: "",
     images: [modern1, modern2, modern3, modern4],
   ),
+
+
+  ProjectUtils(
+    coverImg: fintechCover,
+    title: "Fintech Banking Investing Application",
+    subTitle: "Flutter UI App for effortless personal finance tracking and smart budgeting",
+    description:
+        "A modern Flutter Fintech app that visualizes savings, assets, and daily transactions in a clean, intuitive interface. It includes dynamic charts, personalized insights, and card management features—crafted to deliver a seamless and intelligent money management experience",
+    githubLink: "https://github.com/khaledshalien97/Fintech-Banking-Investing-App-UI",
+    appStoreLink: "",
+    androidStoreLink: "",
+    images: [fintech1, fintech2, fintech3,],
+  ),
+
+
+    ProjectUtils(
+    coverImg: coffeeCover,
+    title: "Coffee Shop Application",
+    subTitle: "Your Daily Dose of Coffee Joy",
+    description:"A modern coffee app with a warm aesthetic that lets users explore, customize, and order their favorite brews with ease. From cappuccinos to espressos, Cof. delivers a smooth and inviting experience that feels like your favorite café in your pocket",
+    githubLink: "https://github.com/khaledshalien97/Coffee-Shop-UI-App",
+    appStoreLink: "",
+    androidStoreLink: "",
+    images: [coffee1, coffee2, coffee3,coffee4],
+  ),
+
 ];
